@@ -1752,6 +1752,7 @@
  .inner_banner_2 {
      background: url('../images/new/tower.jpg') no-repeat center center;
      background-size: cover;
+     height: 85vh;
 }
  .inner_banner_3 {
      background: url('../images/banner/3.jpg') no-repeat center center;
@@ -1760,10 +1761,12 @@
  .inner_banner_4 {
      background: url('../images/new/background_banner_khiva.jpg') no-repeat center center;
      background-size: cover;
+     height: 55vh;
 }
  .inner_banner_5 {
      background: url('../images/new/tashkent.webp') no-repeat center center;
      background-size: cover;
+     height: 50vh;
 }
  .inner_banner div {
      position: relative;
@@ -2982,7 +2985,7 @@
     /* makes sure it stays on top */
 }
  #status {
-     width: 200px;
+     width: 100px;
      height: 200px;
      position: absolute;
      left: 50%;
@@ -2992,6 +2995,7 @@
      background-image: url(../images/logo.png);
     /* path to your loading animation */
      background-repeat: no-repeat;
+     background-size:100px;
      background-position: center;
      margin: -100px 0 0 -100px;
     /* is width and height divided by two */
@@ -4214,7 +4218,8 @@
 /* HOME PAGE SEARCH BOX 
 /*-------------------------------------------------*/
  .tourz-search {
-     background: url(../images/new/new_parralax.jpg) no-repeat;
+     background: url(../images/new/new_parralax.webp) no-repeat;
+     height: 80vh;
      position: relative;
      background-size: cover;
 }
@@ -5565,12 +5570,13 @@
  .wed-logo{
      float: left;
      width: 20%;
+     
 }
  .wed-logo a{
+    
 }
  .wed-logo a img{
-     width: 250px;
-     padding: 7px 0px;
+     width: 130px;
 }
  .wed-menu{
      float: right;
